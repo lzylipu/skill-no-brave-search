@@ -1,7 +1,23 @@
 ---
-name: "no-brave-search"
-description: "强制禁用Brave Search API，只允许使用必应和谷歌进行网络搜索。此技能确保系统永远不会尝试使用Brave Search，即使在其他工具或配置中启用了它。"
+name: no-brave-search
+description: "Disable Brave Search - enforce Bing/Google/DuckDuckGo only (Hermes has native web search, this is OpenClaw legacy)"
+version: 1.0.0
+author: lzylipu
+license: MIT
+platforms: [linux]
+status: legacy
+note: "Hermes Agent has built-in web search, this skill was for OpenClaw only"
+prerequisites: {}
+metadata:
+  hermes:
+    tags: [brave, search, bing, google, duckduckgo, 搜索]
+    related_skills: []
+    homepage: https://github.com/lzylipu/openclaw-skill-no-brave-search
+    category: personal
+    skill_type: constraint
 ---
+
+> **Note**: This skill was designed for OpenClaw. Hermes Agent has built-in web search via `web_search` tool and does not need this.
 
 # No Brave Search Skill v1.0.0
 
