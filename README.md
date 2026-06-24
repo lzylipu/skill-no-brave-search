@@ -1,5 +1,7 @@
 # No Brave Search - OpenClaw Skill
 
+**[English](./README.en.md) | 中文**
+
 强制禁用Brave Search API，只允许使用必应和谷歌进行网络搜索。
 
 ## 为什么需要这个技能？
